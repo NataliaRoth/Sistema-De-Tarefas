@@ -16,11 +16,11 @@ Este projeto também faz parte do meu processo de aprendizagem em Python. A idei
 - 🗑️ Excluir tarefas
 - 🚪 Encerrar o sistema
 
-## Tecnologias utilizadas
-
+## tecnologias e ferramentas
 - Python
+- VsCode
 
-## Conceitos praticados
+## Conhecimentos utilizados
 
 Durante o desenvolvimento foram utilizados conceitos como:
 
