@@ -41,7 +41,11 @@ while True:
     print("5. Sair")
     Espaco()
 
-    escolha = int(input("Escolha uma função: "))
+    try:
+        escolha = int(input("Escolha uma função: "))
+    except ValueError:
+        print("valor inválido. Tente novamente.") 
+        continue
     Espaco()
     Linha()
     sleep(1)
@@ -67,7 +71,11 @@ while True:
     elif escolha == 3: #Editar Tarefa
         MostrarLista()
         Espaco()
-        escolha = int(input("Qual a tarefa que deseja editar? ")) - 1
+        try:
+            escolha = int(input("Qual a tarefa que deseja editar? ")) - 1
+        except ValueError:
+            print("valor inválido. Tente novamente.")
+            continue
 
         if escolha < 0 or escolha > len(tarefas) -1:
             print("Escolha inválida. Essa tarefa não existe.")
@@ -82,7 +90,11 @@ while True:
     elif escolha == 4: #Excluir Tarefa
         MostrarLista()
         Espaco()
-        escolha = int(input("Escolha a tarefa que deseja excluir: ")) - 1
+        try:
+            escolha = int(input("Qual a tarefa que deseja excluir? ")) - 1
+        except ValueError:
+            print("valor inválido. Tente novamente.")
+            continue
 
         if escolha < 0 or escolha > len(tarefas) -1:
             print("Escolha inválida. Essa tarefa não existe.")
