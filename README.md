@@ -32,6 +32,7 @@ Durante o desenvolvimento foram utilizados conceitos como:
 - "enumerate()"
 - Manipulação de listas
 - Validação de entradas
+- Tratamento de exceções (try e except)
 
 ## Evolução do projeto
 
@@ -39,7 +40,6 @@ Este projeto continuará sendo desenvolvido conforme avanço nos meus estudos.
 
 Entre as melhorias planejadas para versões futuras estão:
 
-- Tratamento de exceções
 - Conclusão de tarefas
 - Definição de prioridades
 - Melhorias na validação de dados
