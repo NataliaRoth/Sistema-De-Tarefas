@@ -43,7 +43,7 @@ Entre as melhorias planejadas para versões futuras estão:
 
 - Conclusão de tarefas (marcar itens como finalizados)
 - Persistência de dados (salvamento em arquivos locais ou banco de dados)
-- Novos filtros e melhorias gerais de usabilidade no terminal
+* Novos filtros e melhorias gerais de usabilidade no terminal
 
 ## 🎯 Objetivo
 
