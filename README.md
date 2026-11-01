@@ -4,35 +4,36 @@ Aplicação desenvolvida em Python com o objetivo de praticar lógica de program
 
 ## Sobre o projeto
 
-O Sistema de Tarefas é uma aplicação simples executada pelo terminal, que permite cadastrar, visualizar, editar e excluir tarefas através de um menu interativo.
+O Projeto "Sistema de Tarefas" é uma aplicação interativa executada pelo terminal que permite cadastrar, visualizar, editar e excluir tarefas, através de um menu. 
 
-Este projeto também faz parte do meu processo de aprendizagem em Python. A ideia é continuar aprimorando a aplicação conforme novos conhecimentos forem adquiridos, adicionando funcionalidades e buscando melhorar a estrutura do código.
+O projeto nasceu de uma base simples, focada em controle de fluxo, validação de entradas do usuário e exibição condicional de listas e evoluiu consideravelmente. Nas versões mais recentes, ganhou gerenciamento de prioridades (com indicadores visuais em emojis), ordenação automática inteligente, menus interativos dinâmicos com a biblioteca `questionary` e uma estrutura de código mais modularizada.
+
+Esta aplicação faz parte do meu processo contínuo de aprendizagem em programação, servindo como um registro prático da minha evolução técnica.
 
 ## Funcionalidades
 
-- 📋 Visualizar tarefas cadastradas
-- ➕ Adicionar novas tarefas
-- ✏️ Editar tarefas existentes
-- 🗑️ Excluir tarefas
-- 🚪 Encerrar o sistema
+- 📋 **Visualizar Tarefas:** Exibe a lista completa de tarefas cadastradas de forma organizada.
+- ➕ **Adicionar Tarefas:** Permite inserir novos itens e definir o respectivo nível de prioridade (🔴 Alta, 🟡 Moderada, 🟢 Leve).
+- ✏️ **Editar Tarefas:** Atualiza tanto o texto quanto a prioridade de uma tarefa existente.
+- 🗑️ **Excluir Tarefas:** Remove itens da lista com validação de índice para evitar erros.
+- 📊 **Ordenação Automática:** As tarefas são ordenadas automaticamente por prioridade no momento da exibição.
+- 🚪 **Encerrar Sistema:** Fecha a aplicação de forma controlada
 
 ## tecnologias e ferramentas
 - Python
 - VsCode
+- Biblioteca `time` (para controle de tempo e pausas com `sleep`)
+- Biblioteca `questionary` (para criação de prompts e seleções interativas no terminal)
 
 ## Conhecimentos utilizados
 
 Durante o desenvolvimento foram utilizados conceitos como:
 
-- Listas
-- Estruturas condicionais
-- Estruturas de repetição
-- Funções
-- "input()" e "print()"
-- "enumerate()"
-- Manipulação de listas
-- Validação de entradas
-- Tratamento de exceções (try e except)
+- **Estruturas de Dados:** Manipulação de listas, tuplas e dicionários para mapeamento de prioridades.
+- **Controle de Fluxo:** Estruturas condicionais (`if`, `elif`, `else`) e de repetição (`while`, `for`).
+- **Modularização:** Criação e chamada de funções personalizadas para limpeza de código (`Linha()`, `Espaco()`, `MostrarLista()`, `OrdenarTarefas()`, `Prioridades()`).
+- **Tratamento de Exceções:** Uso de blocos `try` e `except` para capturar e tratar erros de digitação e índices inválidos (`ValueError`, `IndexError`).
+- **Funções Avançadas e Utilitários:** Uso de funções lambda (`lambda`) para ordenação customizada, `enumerate()`, métodos de string (`.lower()`) e importação de bibliotecas nativas/externas (`sleep` do módulo `time` e `questionary`).
 
 ## Evolução do projeto
 
@@ -40,9 +41,9 @@ Este projeto continuará sendo desenvolvido conforme avanço nos meus estudos.
 
 Entre as melhorias planejadas para versões futuras estão:
 
-- Conclusão de tarefas
-- Definição de prioridades
-- Melhorias na validação de dados
+- Conclusão de tarefas (marcar itens como finalizados)
+- Persistência de dados (salvamento em arquivos locais ou banco de dados)
+- Novos filtros e melhorias gerais de usabilidade no terminal
 
 ## 🎯 Objetivo
 
