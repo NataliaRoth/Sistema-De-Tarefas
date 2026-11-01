@@ -10,6 +10,8 @@ O projeto nasceu de uma base simples, focada em controle de fluxo, validação d
 
 Esta aplicação faz parte do meu processo contínuo de aprendizagem em programação, servindo como um registro prático da minha evolução técnica.
 
+![Imagem da tela do rpojeto no VScode](Imagem tela sistema de tarefas\FotoTelaSistemadeTarefas.png)
+
 ## Funcionalidades
 
 - 📋 **Visualizar Tarefas:** Exibe a lista completa de tarefas cadastradas de forma organizada.
