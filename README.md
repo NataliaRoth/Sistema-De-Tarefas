@@ -8,9 +8,7 @@ O Projeto "Sistema de Tarefas" é uma aplicação interativa executada pelo term
 
 O projeto nasceu de uma base simples, focada em controle de fluxo, validação de entradas do usuário e exibição condicional de listas e evoluiu consideravelmente. Nas versões mais recentes, ganhou gerenciamento de prioridades (com indicadores visuais em emojis), ordenação automática inteligente, menus interativos dinâmicos com a biblioteca `questionary` e uma estrutura de código mais modularizada.
 
-Esta aplicação faz parte do meu processo contínuo de aprendizagem em programação, servindo como um registro prático da minha evolução técnica.
-
-![Imagem da tela do rpojeto no VScode](Imagem tela sistema de tarefas\FotoTelaSistemadeTarefas.png)
+Esta aplicação faz parte do meu processo contínuo de aprendizagem em programação, servindo como um registro prático da minha evolução técnicas. 
 
 ## Funcionalidades
 
