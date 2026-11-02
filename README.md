@@ -10,6 +10,8 @@ O projeto nasceu de uma base simples, focada em controle de fluxo, validação d
 
 Esta aplicação faz parte do meu processo contínuo de aprendizagem em programação, servindo como um registro prático da minha evolução técnicas. 
 
+![Imagem tela do projeto no vscode](<Imagem tela sistema de tarefas/FotoTelaSistemadeTarefas.png>)
+
 ## Funcionalidades
 
 - 📋 **Visualizar Tarefas:** Exibe a lista completa de tarefas cadastradas de forma organizada.
@@ -48,3 +50,6 @@ Entre as melhorias planejadas para versões futuras estão:
 ## 🎯 Objetivo
 
 Mais do que desenvolver uma aplicação funcional, este projeto tem como objetivo registrar minha evolução na programação e colocar em prática novos conhecimentos ao longo do processo.
+
+
+[def]: Imagem
